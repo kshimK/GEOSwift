@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
     'Andrea Cremaschi' => 'andreacremaschi@libero.it'
   }
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.6'
   s.source = {
     git: 'https://github.com/GEOSwift/GEOSwift.git',
     tag: s.version
